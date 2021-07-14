@@ -1,6 +1,30 @@
 .App {
   text-align: center;
 }
+ul,ol,li{
+  list-style: none;
+}
+.banner{
+  width: 400px;
+  height: 230px;
+  overflow:hidden;
+}
+.img{
+  width: 350px;
+  height: 200px;
+}
+.dot{
+  width: 6px;
+  height: 6px;
+  background:#ccc;
+  display:inline-block;
+  border-radius:50%;
+  margin-right:5px;
+}
+
+.checked{
+  background:red;
+}
 
 .App-logo {
   height: 40vmin;
